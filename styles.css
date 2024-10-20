@@ -1,0 +1,171 @@
+body{
+  margin: 0;
+  text-align: center;
+  color: #40514E;
+}
+
+h1{
+  color: #66BFBF;
+  font-size: 50px;
+  margin-top: 50px auto 0 auto;
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.webDevText{
+  color: #66BFBF;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: oblique;
+}
+
+h2{
+  color: #66BFBF; 
+  padding-bottom: 20px;
+}
+
+h3{
+  color: #11999E;
+}
+
+p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-container{
+  background-color:rgb(157, 240, 233);
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+
+a{
+ color: #11999E;
+ margin: 10px 20px;
+ font-family: 'Courier New', Courier, monospace, sans-serif;
+ text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 30px auto;
+}
+
+.intro{
+  margin: auto;
+ width: 50%;
+ line-height: 2;
+}
+
+.web{
+  text-decoration: underline;
+}
+
+hr{
+  border: dotted #a5ebeb 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.profile{
+  img {
+    margin-top: 20px;
+    width: 150px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    border-radius: 50%; /* Makes the image circular */
+  }
+}
+
+.WebDevImage{
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.video-container{
+  display: inline-block;
+  position: relative;
+  width: 400px; /* Set the desired width */
+  height: 500px; /* Set the same height to make it a circle */
+  overflow: hidden;
+  border-radius: 20%; /* Makes the video container circular */
+  border: 5px solid #181a1b; /* Adjust border color and thickness */
+  object-fit: cover;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row1{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left; 
+  line-height: 2;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
